@@ -355,8 +355,10 @@ section.view5{
      
     .left{
        width: 39.5%;
+    
         img{
             width: 100%;
+            border-radius:2rem;
         }}
         .right{
             width: 40%;
@@ -435,6 +437,7 @@ section.view6{
         position: relative;
         background-image: linear-gradient(90deg, rgb(255, 132, 133), rgb(249, 234, 198));
          border-radius: 40px;
+         overflow: hidden;
 
          .innertext{
             width: 60%;
@@ -583,6 +586,7 @@ section.view6{
       .textview8{
         text-align: center;
         margin-top: 4rem;
+        
 
 
         h4{
@@ -592,7 +596,7 @@ section.view6{
         }
 
         h1{
-            font-size: clamp(46px,6vw,60px);
+            font-size: clamp(2rem,5vw,3.7rem);
              margin-top: 1rem;
              margin-bottom: 1rem;
         }
