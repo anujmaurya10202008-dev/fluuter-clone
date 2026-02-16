@@ -924,6 +924,7 @@ footer .footerinner .bottom a {
   section.view7 .view7inner {
     flex-direction: column;
     padding-top: 4rem;
+    overflow: hidden;
   }
   section.view7 .view7inner .innertext {
     width: 100%;
@@ -1027,5 +1028,10 @@ footer .footerinner .bottom a {
   footer .footerinner .bottom .link a {
     font-size: 1rem;
     opacity: 0.7;
+  }
+}
+@media (min-width: 1700px) {
+  body {
+    padding: 0rem 5rem;
   }
 }/*# sourceMappingURL=style.css.map */

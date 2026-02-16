@@ -1134,6 +1134,7 @@ section.view6{
         .view7inner{
             flex-direction: column;
             padding-top: 4rem;
+            overflow: hidden;
             
             .innertext{
                 width: 100%;
@@ -1146,6 +1147,10 @@ section.view6{
             position: static;         // 👈 absolute hata diya
             width: 100%;
             margin-top: 2rem;
+
+
+
+            
         }
         
         .view7img img{
@@ -1293,6 +1298,14 @@ footer{
 
 }
 
+
+@media (min-width:1700px){
+  body{
+    padding: 0rem 5rem;
+  }
+
+
+}
 
 
 
