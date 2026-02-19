@@ -32,6 +32,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color:transparent;
+    padding: 0.2rem 0.3rem;
   
     .nav1  {
      img{
@@ -1055,7 +1056,7 @@ section.view6{
 
 @media (max-width:1024px){
 
-       header nav .nav1{
+       header nav{
         padding-top: 2rem;
        }
        header nav .nav2{

@@ -23,6 +23,7 @@ header nav {
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
+  padding: 0.2rem 0.3rem;
 }
 header nav .nav1 img {
   padding-left: 2rem;
@@ -861,7 +862,7 @@ footer .footerinner .bottom a {
 }
 
 @media (max-width: 1024px) {
-  header nav .nav1 {
+  header nav {
     padding-top: 2rem;
   }
   header nav .nav2 {
