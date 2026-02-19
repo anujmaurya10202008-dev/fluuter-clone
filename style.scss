@@ -48,6 +48,7 @@ nav{
     align-items: center;
     gap: 2rem;
     color: white;
+    cursor: pointer;
 
 }
    
@@ -59,6 +60,7 @@ nav{
     border-radius: 25px;
     border: none;
     color: blue;
+    cursor: pointer;
 }
 
 .nav3{
@@ -192,8 +194,11 @@ h1{
         border: none;
         color: blue;
         padding: 1rem 2rem;
+        cursor: pointer;
+
 
     }
+    
   }  }
   
   main{
@@ -226,10 +231,12 @@ h1{
                     padding: 0.5rem 1.5rem;
                     border-radius: 50px;
                     color: white;
+                    cursor: pointer;
                     }
                     
                     .productive,.flexible{
                        color:#0468D7;
+                       cursor: pointer;
                     }
                 
             }
@@ -268,7 +275,9 @@ h1{
             color:#25ac9c;
             border: 1px solid #25ac9c;
             margin-top: 2rem;
-            border-radius: 2rem       ;
+            border-radius: 2rem;
+            cursor: pointer;
+
             }
         }}
 
@@ -306,7 +315,8 @@ h1{
             color:#25ac9c;
             border: 1px solid oklab(70.626% -0.11842 -0.00596);
             margin-top: 2rem;
-            border-radius: 2rem ;
+            border-radius: 2rem;
+            cursor: pointer;
             }
         }}
 
@@ -340,7 +350,8 @@ h1{
             color:#25ac9c;
             border: 1px solid oklab(70.626% -0.11842 -0.00596);
             margin-top: 2rem;
-            border-radius: 2rem ;
+            border-radius: 2rem;
+            cursor: pointer;
             }
         }}
 
@@ -383,7 +394,8 @@ section.view5{
             color:#25ac9c;
             border: 1px solid oklab(70.626% -0.11842 -0.00596);
             margin-top: 2rem;
-            border-radius: 2rem ;
+            border-radius: 2rem;
+            cursor: pointer;
             }
         }}
 
@@ -420,7 +432,8 @@ section.view6{
             color:#25ac9c;
             border: 1px solid oklab(70.626% -0.11842 -0.00596);
             margin-top: 2rem;
-            border-radius: 2rem ;
+            border-radius: 2rem;
+            cursor: pointer;
             }
         }}
 
@@ -455,7 +468,9 @@ section.view6{
                 button{
                     background-color: transparent;
                     border: none;
-                    margin-top: 1rem;}
+                    margin-top: 1rem;
+                cursor: pointer;}
+                    
                 }
                     .view7img{
                         width: 32%;
@@ -700,18 +715,21 @@ section.view6{
                     display: flex;
                     gap: 1rem;
                     margin-top: 1rem;
+                     
 
                     .but1{
                         padding: 0.5rem 1.5rem;
                         background-color: transparent;
                         border-radius: 50px;
                         font-weight: 600;
+                        cursor: pointer;
                     }
                     .but2{
                         background-color: transparent;
                         border: none;
                         font-weight: 600;
                         padding: 0.5rem 1.5rem;
+                        cursor: pointer;
                     }
                 }
   
@@ -799,6 +817,8 @@ section.view6{
                             border: none;
                             margin-top: 3rem;
                             margin-bottom: 0rem;
+                            cursor: pointer;
+                            font-size: 1rem;
                         }}}
 
                         .button{
@@ -813,6 +833,7 @@ section.view6{
                             font-weight:bold;
                             border: 3px solid black;
                             border-radius: 50%;
+                            cursor: pointer;
                            }
                         }
 
@@ -924,6 +945,7 @@ section.view6{
                                             border-radius: 50px;
                                             border: none; 
                                             font-size: 1rem;
+                                            cursor: pointer;
                                            
                                         }
                                         .button2{
@@ -932,6 +954,7 @@ section.view6{
                                             color: white;
                                             border: none; 
                                             font-size: 1rem;
+                                            cursor: pointer;
 
                                         }
                                     }
@@ -971,10 +994,12 @@ section.view6{
                     .about1,.about2,.about3{
                         h3{
                             margin-bottom: 1rem;
+                            cursor: pointer;
                         }
                         h4{
                             margin-bottom: 0.5rem;
                             opacity: 0.7;
+                            cursor: pointer;
                         }
 
                     }
@@ -990,6 +1015,9 @@ section.view6{
                 opacity: 0.5;
                 margin-top: 3rem;
                 margin-bottom: 2rem;
+                i{
+                    cursor: pointer;
+                }
 
             }
             .bottom{
@@ -1020,6 +1048,7 @@ section.view6{
                     opacity: 0.8;
                     color: black;
                     text-decoration: none;
+                    cursor: pointer;
 
                   }
 

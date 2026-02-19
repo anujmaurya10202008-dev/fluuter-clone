@@ -34,12 +34,14 @@ header nav .nav2 {
   align-items: center;
   gap: 2rem;
   color: white;
+  cursor: pointer;
 }
 header nav .nav2 button {
   padding: 0.5rem 2rem;
   border-radius: 25px;
   border: none;
   color: blue;
+  cursor: pointer;
 }
 header nav .nav3 {
   padding-right: 2rem;
@@ -163,6 +165,7 @@ header .text button {
   border: none;
   color: blue;
   padding: 1rem 2rem;
+  cursor: pointer;
 }
 
 main {
@@ -196,9 +199,11 @@ section.view1 .view1b .view1binner .fast {
   padding: 0.5rem 1.5rem;
   border-radius: 50px;
   color: white;
+  cursor: pointer;
 }
 section.view1 .view1b .view1binner .productive, section.view1 .view1b .view1binner .flexible {
   color: #0468D7;
+  cursor: pointer;
 }
 
 section.view2 {
@@ -237,6 +242,7 @@ section.view2 .right button {
   border: 1px solid #25ac9c;
   margin-top: 2rem;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 section.view3 {
@@ -274,6 +280,7 @@ section.view3 .right button {
   border: 1px solid oklab(70.626% -0.11842 -0.00596);
   margin-top: 2rem;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 section.view4 {
@@ -311,6 +318,7 @@ section.view4 .right button {
   border: 1px solid oklab(70.626% -0.11842 -0.00596);
   margin-top: 2rem;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 section.view5 {
@@ -351,6 +359,7 @@ section.view5 .right button {
   border: 1px solid oklab(70.626% -0.11842 -0.00596);
   margin-top: 2rem;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 section.view6 {
@@ -389,6 +398,7 @@ section.view6 .right button {
   border: 1px solid oklab(70.626% -0.11842 -0.00596);
   margin-top: 2rem;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 section.view7 {
@@ -422,6 +432,7 @@ section.view7 .view7inner .innertext button {
   background-color: transparent;
   border: none;
   margin-top: 1rem;
+  cursor: pointer;
 }
 section.view7 .view7inner .view7img {
   width: 32%;
@@ -621,12 +632,14 @@ section.view9 .view9inner .view9text .buttonview9 .but1 {
   background-color: transparent;
   border-radius: 50px;
   font-weight: 600;
+  cursor: pointer;
 }
 section.view9 .view9inner .view9text .buttonview9 .but2 {
   background-color: transparent;
   border: none;
   font-weight: 600;
   padding: 0.5rem 1.5rem;
+  cursor: pointer;
 }
 section.view9 .view9inner .view9img {
   width: 31.9%;
@@ -684,6 +697,8 @@ section.view10 .view10inner .innercard .card1 button {
   border: none;
   margin-top: 3rem;
   margin-bottom: 0rem;
+  cursor: pointer;
+  font-size: 1rem;
 }
 section.view10 .view10inner .button {
   display: flex;
@@ -697,6 +712,7 @@ section.view10 .view10inner .button p {
   font-weight: bold;
   border: 3px solid black;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 section.view11 {
@@ -787,6 +803,7 @@ section.view11 .inner .bottom .text .button .button1 {
   border-radius: 50px;
   border: none;
   font-size: 1rem;
+  cursor: pointer;
 }
 section.view11 .inner .bottom .text .button .button2 {
   padding: 0.5rem 1rem;
@@ -794,6 +811,7 @@ section.view11 .inner .bottom .text .button .button2 {
   color: white;
   border: none;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 footer {
@@ -822,10 +840,12 @@ footer .footerinner .top .about {
 }
 footer .footerinner .top .about .about1 h3, footer .footerinner .top .about .about2 h3, footer .footerinner .top .about .about3 h3 {
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 footer .footerinner .top .about .about1 h4, footer .footerinner .top .about .about2 h4, footer .footerinner .top .about .about3 h4 {
   margin-bottom: 0.5rem;
   opacity: 0.7;
+  cursor: pointer;
 }
 footer .footerinner .center {
   width: 100%;
@@ -836,6 +856,9 @@ footer .footerinner .center {
   opacity: 0.5;
   margin-top: 3rem;
   margin-bottom: 2rem;
+}
+footer .footerinner .center i {
+  cursor: pointer;
 }
 footer .footerinner .bottom {
   width: 100%;
@@ -859,6 +882,7 @@ footer .footerinner .bottom a {
   opacity: 0.8;
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
